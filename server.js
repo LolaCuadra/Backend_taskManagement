@@ -6,13 +6,6 @@ dotenv.config();
 const { initDb } = require('./db/connect');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger-output.json');
-// render issue ?
-const cors = require('cors');
-
-// Enable CORS
-app.use(cors());
-
-
 
 const app = express();
 
